@@ -48,6 +48,8 @@ control = {
         backBuffer.height = h;
         
         //  copy the image from the video into the background bugger
+        bCtx.translate(w, 0);
+        bCtx.scale(-1, 1);
         bCtx.drawImage(v, 0, 0, w, h);
         
         var imageData = bCtx.getImageData(0, 0, w, h);
