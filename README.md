@@ -7,6 +7,6 @@ Test code that takes a webcam stream in as input and then applies the "Flambient
 
 If you want to risk it, go here *CHROME ONLY*...
 
-http://revdancatt.github.com/CAT436-flambientcam/
++ Running: http://revdancatt.github.com/CAT436-flambientcam/
 
 ...and hit the "Allow" button when the browser asks permission to use the camera.
