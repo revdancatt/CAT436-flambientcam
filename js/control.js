@@ -27,7 +27,7 @@ control = {
 
         control.makeTileMap();
 
-        navigator.webkitGetUserMedia({video:true}, control.callbackStreamIsReady);
+        navigator.webkitGetUserMedia({video:true}, control.callbackStreamIsReady, function(){});
 
     },
 
